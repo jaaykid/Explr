@@ -17,6 +17,10 @@
     display: block;
     transition: all .3s;
 
+    @include respond(tab-land) {
+      width: 55%;
+    }
+
       &::-webkit-input-placeholder {
       color: #999;
     }
@@ -50,6 +54,10 @@
   &__radio-group {
     display: inline-block;
     width: 49%;
+
+     @include respond(tab-land) {
+      width: 25%;
+    }
   }
 
   &__radio-input {
