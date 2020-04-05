@@ -62,12 +62,7 @@
      @include respond(phone) {
       display: block;
       width: 50%;
-
-      :not(:last-child) {
-      margin-bottom: 1.5rem;
-  }
-
-
+      :not(:last-child) { margin-bottom: 3rem;}
     }
   }
 
