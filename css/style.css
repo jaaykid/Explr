@@ -348,6 +348,10 @@ body {
   @media (max-width: 75em) {
     .form__radio-group {
       width: 25%; } }
+  @media (max-width: 37.5em) {
+    .form__radio-group {
+      display: block;
+      width: 50%; } }
 
 .form__radio-input {
   display: none; }

@@ -58,6 +58,11 @@
      @include respond(tab-land) {
       width: 25%;
     }
+
+     @include respond(phone) {
+      display: block;
+      width: 50%;
+    }
   }
 
   &__radio-input {
