@@ -302,6 +302,10 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+@media (max-width: 37.5em) {
+  .form .btn::after {
+    margin-right: 3rem; } }
+
 .form__group:not(:last-child) {
   margin-bottom: 2rem; }
   @media (max-width: 37.5em) {

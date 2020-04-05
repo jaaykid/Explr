@@ -1,5 +1,12 @@
 .form {
-  
+
+  .btn {
+    &::after {
+      @include respond(phone) {
+      margin-right: 3rem;
+    }
+    }
+  }
   &__group:not(:last-child) {
     margin-bottom: 2rem;
 
