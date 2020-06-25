@@ -1,9 +1,12 @@
 .form {
 
   .btn {
+    @include respond(phone) {
+      padding-right: 4rem;
+    }
     &::after {
       @include respond(phone) {
-      margin-right: 3rem;
+      padding: 4rem;
     }
     }
   }

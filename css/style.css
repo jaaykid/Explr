@@ -303,8 +303,12 @@ body {
     transform: translateY(-1.5rem) scale(1.03); }
 
 @media (max-width: 37.5em) {
+  .form .btn {
+    padding-right: 4rem; } }
+
+@media (max-width: 37.5em) {
   .form .btn::after {
-    margin-right: 3rem; } }
+    padding: 4rem; } }
 
 .form__group:not(:last-child) {
   margin-bottom: 2rem; }
@@ -618,19 +622,26 @@ body {
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
+    @media (max-width: 37.5em) {
+      .popup__left {
+        width: 50%;
+        display: inline-block; } }
   .popup__right {
     width: 66.666667%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
+    @media (max-width: 37.5em) {
+      .popup__right {
+        display: inline-block; } }
   .popup__img {
-    display: block;
-    width: 100%; }
+    display: inline-block;
+    width: 50%; }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
     -moz-column-count: 2;
-    -moz-column-gap: 4ewm;
+    -moz-column-gap: 4em;
     -moz-column-rule: 1px solid #eee;
     column-count: 2;
     column-gap: 4rem;
